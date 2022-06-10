@@ -4,7 +4,7 @@ window.scrollTo(0,0)
 document.addEventListener('scroll', function(){
     lastKnownScrollPosition = window.scrollY;
     setInterval(()=>{
-        if(lastKnownScrollPosition > 67){
+        if(lastKnownScrollPosition >= 67){
             c('header').style.padding = '5px 0px'
         }else{
             c('header').style.padding = '20px 0px'
