@@ -92,7 +92,7 @@ header{
 
 
 .home{
-    background-image: url(/assets/reunion.png);
+    background-image: url(https://github.com/AlexandreSican/portfolioproject/blob/main/assets/reunion.png?raw=true);
     background-repeat: no-repeat;
     max-height: 100vh;
     display: flex;
@@ -210,6 +210,12 @@ header{
     text-align: justify;
     font-family: 'Quicksand';
     font-weight: bold;
+}
+
+.business-description a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
 
 .employe{
@@ -350,7 +356,7 @@ header{
 }
 
 .section1-div1{
-    background-image: url(/assets/vision.png);
+    background-image: url(https://github.com/AlexandreSican/portfolioproject/blob/main/assets/vision.png?raw=true);
     background-repeat: no-repeat;
     width: 50vw;
 }
