@@ -629,6 +629,12 @@ header{
     .business{
         display: none;
     }
+    #homeId{
+        display: none;
+    }
+    .employe{
+        width: 100vw;
+    }
 }
 
 @media(max-width: 1600px){
@@ -692,5 +698,7 @@ header{
         grid-column: span 1;
     }
 }
+
+
 
 
